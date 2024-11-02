@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_components/app.dart';
+import 'package:flutter_components/components/buttons.dart';
 import 'package:flutter_components/components/infinite_moving_cards.dart';
 
 
@@ -9,12 +11,17 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: 'Flutter Components',
       debugShowCheckedModeBanner: false,
-      home: InfiniteMovingCard(),
+      routes: {
+        '/': (context) => const App(bodyContent: InfiniteMovingCard()),
+        '/components': (context) => const App(bodyContent: InfiniteMovingCard()),
+        '/buttons': (context) => const App(bodyContent: AnimatedButtons()),
+      },
+      initialRoute: '/components',
     );
   }
 }

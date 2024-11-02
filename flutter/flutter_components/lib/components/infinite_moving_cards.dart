@@ -60,11 +60,12 @@ class InfiniteMovingCardState extends State<InfiniteMovingCard> {
                   color: Colors.accents[cardIndex % Colors.accents.length],
                   child: SizedBox(
                     width: 200,
-                    // height: 100, 
+                    // height: 100,
                     child: Center(
                       child: Text(
                         cards[cardIndex],
-                        style: const TextStyle(fontSize: 20, color: Colors.white),
+                        style:
+                            const TextStyle(fontSize: 20, color: Colors.white),
                       ),
                     ),
                   ),

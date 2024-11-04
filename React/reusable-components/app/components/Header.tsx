@@ -11,14 +11,14 @@ const Header = () => {
         </div>
         {/* navigation */}
             <ul className='flex justify-between items-center w-[22%] h-[60%]  bg-white rounded-full' >
-                <li className=' h-auto w-auto p-2 px-6 text-center m-1 hover:bg-purple-500 rounded-full ' >Home</li>
-                <li className=' h-auto w-auto p-2 px-6 text-center m-1 hover:bg-purple-500 rounded-full ' >About</li>
-                <li className=' h-auto w-auto p-2 px-6 text-center m-1 hover:bg-purple-500 rounded-full ' >Contact</li>
+                <li className=' h-auto w-auto p-2 px-4 text-center m-1 hover:bg-purple-500 rounded-full ' >Home</li>
+                <li className=' h-auto w-auto p-2 px-4 text-center m-1 hover:bg-purple-500 rounded-full ' >About</li>
+                <li className=' h-auto w-auto p-2 px- text-center m-1 hover:bg-purple-500 rounded-full ' >Contact</li>
             </ul>
         <div>
         {/* button */}
         {/* <SignInButton /> */}
-            <button className='bg-white p-2 px-6 m-2 rounded-full hover:bg-purple-500' >Sign In</button> 
+            <button className='bg-white p-2 px-6 m-2 rounded-full hover:bg-black hover:text-white' >Sign In</button> 
         </div>
     </div>
   )

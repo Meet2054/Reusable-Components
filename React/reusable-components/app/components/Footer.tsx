@@ -5,7 +5,7 @@ import { Twitter, Instagram, Github } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <div className='w-full h-[10vh] bg-purple-400 bottom-0 flex flex-col items-center justify-center gap-4'>
+    <div className='w-full h-[10vh] bottom-0 flex flex-col items-center justify-center gap-4'>
       <hr className="w-[95%] border-2 border-gray-500 rounded-full" />
       <div className='w-[95%] h-[60%] flex flex-row justify-between items-center'>
         {/* Left Section */}

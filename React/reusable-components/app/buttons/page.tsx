@@ -32,7 +32,7 @@ const page = () => {
           <h1 className='text-2xl font-caveat font-medium '>Designed Button</h1>
           <AnimatedButton label="Download" onComplete={handleComplete} loadingTime={3000} />
           <DayNightToggle onToggle={(isDay) => console.log(`Day mode: ${isDay}`)} />
-            <Button text="Outline Button" onClick={handleClick} variant="outline" size="sm" />
+            <Button text="color gradiant Button" onClick={handleClick} variant="glowing" size="sm" />
             <Button text="Disabled Button" onClick={() => {}} disabled />
           </div>
           <div className="flex flex-col items-center gap-6 min-h-screen w-full ">

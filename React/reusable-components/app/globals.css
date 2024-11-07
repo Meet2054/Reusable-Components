@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +11,13 @@ html, body, #__next {
   margin: 0;
   display: flex;
   flex-direction: column;
+  @apply bg-white text-black transition-colors duration-500;
+
+}
+
+
+.dark body {
+  @apply bg-gray-900 text-white;
 }
 
 
